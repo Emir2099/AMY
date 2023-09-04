@@ -1,7 +1,7 @@
 import basic
 
 while True:
-	text = input('basic > ')
+	text = input('\x1b[32mbasic >\x1b[0m ')
 	if text.strip() == "": continue
 	result, error = basic.run('<stdin>', text)
 
